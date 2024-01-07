@@ -1,0 +1,26 @@
+body,
+html,* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.landingPage{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow-x: auto;
+  transition: transform 0.3s ease;
+}
+
+
+
+@media (max-width: 900px) {body,
+  html {
+    overflow-y:scroll ;
+  }
+  .landingPage{
+   flex-direction: column;
+   overflow-x: hidden;
+   overflow-y: auto; 
+  }}
