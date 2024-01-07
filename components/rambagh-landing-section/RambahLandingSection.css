@@ -1,0 +1,48 @@
+.rambagh-landing{
+    width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.rambagh-landing >img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1; 
+    object-fit: cover;
+}
+.rambagh-landing-text{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: grid;
+    grid-template-rows: 52% 48%;
+   
+}
+.rambagh-landing-text h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.133px;
+    text-transform: uppercase;
+    align-self: end;
+
+}
+.rambagh-landing-text h2{
+    align-self:end;
+    font-family: Cormorant;
+    font-size: 18.088px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.007px; 
+    letter-spacing: 1.292px;
+    text-align: end;
+    text-transform: uppercase;
+}
